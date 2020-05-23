@@ -1,0 +1,49 @@
+{
+  "name": "quick-dictionary-navigation",
+  "version": "1.0.0",
+  "description": "Quick dictionary Chrome's extension",
+  "main": "background.js",
+  "scripts": {
+    "prettier": "prettier --write ./",
+    "dev": "webpack --config webpack/webpack.dev.js --watch",
+    "build": "webpack --config webpack/webpack.prod.js",
+    "test": "jest",
+    "prebuild": "rimraf dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidnguyen179/quick-dictionary-navigation.git"
+  },
+  "keywords": [
+    "dictionary",
+    "navigation",
+    "chrome-extension",
+    "quick-dictionary-navigation-chrome-extension",
+    "typescript",
+    "ts"
+  ],
+  "author": "David Nguyen <dzungnguyen179@gmail.com> (dzungnguyen179@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidnguyen179/quick-dictionary-navigation/issues"
+  },
+  "homepage": "https://github.com/davidnguyen179/quick-dictionary-navigation#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-typescript": "^7.9.0",
+    "@types/chrome": "0.0.112",
+    "@types/jest": "^25.2.3",
+    "babel-jest": "^26.0.1",
+    "copy-webpack-plugin": "^6.0.1",
+    "jest": "^26.0.1",
+    "prettier": "^2.0.5",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^26.0.0",
+    "ts-loader": "^7.0.4",
+    "typescript": "^3.9.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-merge": "^4.2.2",
+    "whatwg-fetch": "^3.0.0"
+  }
+}

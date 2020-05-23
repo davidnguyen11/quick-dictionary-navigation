@@ -1,0 +1,19 @@
+{
+  "name": "Dictionary Navigation",
+  "version": "1.0",
+  "description": "Dictionary navigation Chrome's extension",
+  "permissions": ["contextMenus", "tabs", "declarativeContent"],
+  "manifest_version": 2,
+  "background": {
+    "page": "background.html",
+    "persistent": false
+  },
+  "page_action": {
+    "default_icon": {
+      "128": "images/dictionary-128.png"
+    }
+  },
+  "icons": {
+    "128": "images/dictionary-128.png"
+  }
+}
