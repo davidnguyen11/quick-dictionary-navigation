@@ -1,5 +1,5 @@
 {
-  "name": "Dictionary Navigation",
+  "name": "Dictionary",
   "version": "1.0",
   "description": "Dictionary navigation Chrome's extension",
   "permissions": ["contextMenus", "tabs", "declarativeContent"],
